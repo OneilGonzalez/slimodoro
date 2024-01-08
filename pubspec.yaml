@@ -1,0 +1,56 @@
+name: slimodoro
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.6 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  sleek_circular_slider: ^2.0.1
+  google_fonts: ^4.0.3
+  audioplayers: ^4.0.1
+  just_audio: ^0.9.32
+  provider: ^6.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: "^0.9.2"
+    #makesure to use the latest version of flutter_launcher_icons***  https://pub.dev/packages/flutter_launcher_icons
+flutter_icons:
+  android: true
+  image_path_android: "assets/slimologo.png"
+  adaptive_icon_background: "#191f6b"
+  adaptive_icon_foreground: "assets/logo.png"
+
+  flutter_lints: ^2.0.0
+
+flutter:
+  
+  uses-material-design: true
+  assets:
+    - assets/Lovelo.otf
+    - assets/MuseoSlab.otf
+    - assets/Barlow_bold.ttf
+    - assets/tool.png
+    - assets/slimologo.png
+    - assets/home.png
+    - assets/timeralarm.mp3
+
+  fonts:
+    - family: Lovelo
+      fonts:
+        - asset: assets/Lovelo.otf
+
+    - family: MuseoSlab
+      fonts:
+        - asset: assets/MuseoSlab.otf
+    - family: Barlow_bold
+      fonts:
+        - asset: assets/Barlow_bold.ttf
